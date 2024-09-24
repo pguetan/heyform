@@ -5,7 +5,7 @@ import { Button, Tooltip } from '@/components/ui'
 
 import { useStore } from '../store'
 import { useTranslation } from '../utils'
-import { Branding } from './Branding'
+// import { Branding } from './Branding'
 
 export const Footer: FC = () => {
   const { state, dispatch } = useStore()
@@ -72,7 +72,7 @@ export const Footer: FC = () => {
             </Tooltip>
           </div>
 
-          <Branding />
+          {/* <Branding /> */}
         </div>
       </div>
     </div>

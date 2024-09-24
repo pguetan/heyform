@@ -9,6 +9,6 @@ export const Branding: FC = () => {
   return (
     <a className="heyform-branding" href="https://heyform.net/?ref=badge" target="_blank">
       <LogoIcon /> {t('Made with')} HeyForm
-    </a>
+    </a>    
   )
 }
